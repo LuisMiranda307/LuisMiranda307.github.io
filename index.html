@@ -6,12 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currículum</title>
     <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/0d76993735.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div>
-        <h1>Hola, soy</h1>
-        <h2>Front-end Developer</h2>
-        
-        </div>
+    <div class="contenedor">
+        <section class="tarjeta">
+            <section class="slider_banner">
+                <div class="banner">
+                    <img class="slide active" src="Img/banner1.png" alt="">
+                    <img class="slide" src="Img/banner2.jpg" alt="">
+                    <img class="slide" src="Img/banner3.jpg" alt="">
+                    <img class="slide" src="Img/banner4.jpg" alt="">
+                </div>
+
+                <a href="#" id="banner-prev" class="flecha-banner anterior"><i class="fas fa-angle-left"></i></a>
+                <a href="#" id="banner-next" class="flecha-banner siguiente"><i class="fas fa-angle-right"></i></a>
+
+            </section>
+            
+            <section class="slider_info">
+                <a href="#" id="info-prev" class="flecha-info anterior"><i class="fas fa-angle-left"></i></a>
+                <a href="#" id="info-next" class="flecha-info siguiente"><i class="fas fa-angle-right"></i></a>
+
+                <section id="informacion" class="informacion">
+                    <article id="info">
+                        <div class="slide active">
+                            <h1 class="nombre">Carlos Arturo</h1>
+                            <p class="trabajo">Desarrollador Web</p>
+                            <p class="pais"><img src="/Img/bandera.png" alt="">Perú</p>
+                        </div>
+
+                        <div class="slide">
+                            <h2 class="subtitulo">Lorem ll</h2>
+                            <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sint dolorezs quisquam commodi quae quaerat illo. Sint unde aliquam eveniet inventore ratione odit necessitatibus, perspiciatis culpa voluptas dicta? Blanditiis, ipsa?</p>
+                    </article>
+                </section>
+            </section>
+
+            <section class="redes_sociales"></section>
+        </section>
+    </div>  
 </body>
 </html>
